@@ -35,56 +35,82 @@ function zero (){
 }
 
 function one (){
-    const num = 1;
-    document.getElementById('result').innerHTML += num;
+    const symbol = '1';
+    if (document.getElementById('result').innerHTML !== '0') {
+        document.getElementById('result').innerHTML += symbol;
+    } else {
+        document.getElementById('result').innerHTML = symbol;
+    }
 }
 
 function two (){
-    const num = 2;
-    document.getElementById('result').innerHTML += num;
+    const symbol = '2';
+    if (document.getElementById('result').innerHTML !== '0') {
+        document.getElementById('result').innerHTML += symbol;
+    } else {
+        document.getElementById('result').innerHTML = symbol;
+    }
 }
 
 function three (){
-    const num = 3;
-    document.getElementById('result').innerHTML += num;
+    const symbol = '3';
+    if (document.getElementById('result').innerHTML !== '0') {
+        document.getElementById('result').innerHTML += symbol;
+    } else {
+        document.getElementById('result').innerHTML = symbol;
+    }
 }
 
 function four (){
-    const num = 4;
-    document.getElementById('result').innerHTML += num;
+    const symbol = '4';
+    if (document.getElementById('result').innerHTML !== '0') {
+        document.getElementById('result').innerHTML += symbol;
+    } else {
+        document.getElementById('result').innerHTML = symbol;
+    }
 }
 
 function five (){
-    const num = 5;
-    document.getElementById('result').innerHTML += num;
+    const symbol = '5';
+    if (document.getElementById('result').innerHTML !== '0') {
+        document.getElementById('result').innerHTML += symbol;
+    } else {
+        document.getElementById('result').innerHTML = symbol;
+    }
 }
 
 function six (){
-    const num = 6;
-    document.getElementById('result').innerHTML += num;
+    const symbol = '6';
+    if (document.getElementById('result').innerHTML !== '0') {
+        document.getElementById('result').innerHTML += symbol;
+    } else {
+        document.getElementById('result').innerHTML = symbol;
+    }
 }
 
 function seven (){
-    const num = 7;
-    document.getElementById('result').innerHTML += num;
+    const symbol = '7';
+    if (document.getElementById('result').innerHTML !== '0') {
+        document.getElementById('result').innerHTML += symbol;
+    } else {
+        document.getElementById('result').innerHTML = symbol;
+    }
 }
 
 function eight (){
-    const num = 8;
-    document.getElementById('result').innerHTML += num;
+    const symbol = '8';
+    if (document.getElementById('result').innerHTML !== '0') {
+        document.getElementById('result').innerHTML += symbol;
+    } else {
+        document.getElementById('result').innerHTML = symbol;
+    }
 }
 
 function nine (){
-    const num = 9;
-    document.getElementById('result').innerHTML += num;
-}
-
-function plus (){
-    document.getElementById('result').innerHTML += '+';
-}
-
-function alert (){
-    if (document.getElementById('result') === '0') {
-        alert(yes)
+    const symbol = '9';
+    if (document.getElementById('result').innerHTML !== '0') {
+        document.getElementById('result').innerHTML += symbol;
+    } else {
+        document.getElementById('result').innerHTML = symbol;
     }
 }
