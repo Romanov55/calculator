@@ -18,7 +18,7 @@ button {
     text-align: right;
     padding: 30px 30px 0px 30px;
     background-color: slategray;
-    border: solid;
+    border-bottom: solid;
 }
 
 section {
@@ -27,6 +27,7 @@ section {
     margin-right: auto;
     justify-content: center;
     width: 400px;
+    border: solid;
 }
 
 .now-number {
