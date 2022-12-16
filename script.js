@@ -163,7 +163,7 @@ function nine (){
 function answer (){
     let str = document.getElementById('result').innerHTML;
     document.getElementById('small-result').innerHTML = eval(str)
-    document.getElementById('result').innerHTML = eval(str)
+    document.getElementById('result').innerHTML = eval('0')
 }
 
 function radical (){
