@@ -41,3 +41,9 @@ body {
 #result {
     font-size: 35px;
 }
+
+#small-result {
+    font-size: 20px;
+    padding-bottom: 0;
+    margin: 15px auto;
+}
